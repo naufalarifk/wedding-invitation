@@ -8,12 +8,14 @@ export const SlideOne = () => {
     <div className='text-center'>
       <div>
     <h1 className='text-xl font-semibold'>Heri Mashudi (anak ke 2)</h1>
-    <p>(Alm) Ibu supiyah dan (Alm) Bapak djakiman</p>
+    <p>(Alm) Ibu Supiyah dan (Alm) Bapak Djakiman</p>
+    <p></p>
       </div>
     <span className='text-3xl'>&</span>
     <div>
-    <h1 className='text-xl font-semibold'>Fitri hariyanti (anak ke 8)</h1>
-    (Alm) Ibu Suwati dan (Alm) Bapak karjono
+    <h1 className='text-xl font-semibold'>dr. Fitri hariyanti (anak ke 8)</h1>
+    (Alm) Ibu Suwati dan (Alm) Bapak Karjono
+    
     </div>
     </div>
     </div>
