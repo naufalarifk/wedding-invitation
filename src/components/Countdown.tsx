@@ -1,4 +1,3 @@
-import React from 'react';
 import Countdown from 'react-countdown';
 
 const CountdownTimer = () => {
@@ -6,7 +5,7 @@ const CountdownTimer = () => {
   const targetDate = new Date('2024-01-21T19:00:00+07:00');
 
   // Define a renderer function for displaying the countdown
-  const renderer = ({ days, hours, minutes, seconds, completed }) => {
+  const renderer = ({ days, hours, minutes, seconds, completed }: any) => {
     if (completed) {
       // Render a completed state if the countdown is finished
       return <span>Happy Wedding to Heri & Fitri!</span>;

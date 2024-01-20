@@ -1,5 +1,4 @@
-import Countdown from "react-countdown"
-import { useCountdown } from "../../hooks/useCountdown";
+
 import CountdownTimer from "../Countdown";
 
 export const SlideTwo = () => {
